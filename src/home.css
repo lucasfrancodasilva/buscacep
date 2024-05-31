@@ -1,0 +1,134 @@
+body{
+    
+    background-color: white;
+    background-color: rgb(37, 37, 37);
+}
+
+.navbar{
+
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+.homebtn{
+    display: flex;
+    padding: 22px;
+    transition: 0.3;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: left;
+  }
+
+.homebtn:hover{
+    opacity: 0.7;
+  }
+
+
+.credits{
+
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    transition: 0.3;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.credits:hover{
+    opacity: 0.7;
+  }
+
+.contato{
+
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+    transition: 0.3;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.contato:hover{
+    opacity: 0.7;
+  }
+
+.navbar img {
+    width: 40px;
+    height: 40px;
+  }
+
+.input{
+
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px black;
+    width: 280px;
+    color: white;
+}
+.input input{
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: white;
+    outline: none;
+
+}
+
+.buttonsearch{
+
+    background-color: transparent;
+    border: 0;
+}
+
+.buttonsearch:hover{
+    transform: scale(1.1);
+}
+
+.principal{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.titulo{
+    margin-bottom: 20px;
+    font-size: 100px;
+    color: white;
+}
+
+
+main{
+
+    backdrop-filter: blur(20px);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px black;
+    width: 400px;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.mapbtn{
+    
+    background-color: transparent;
+    border: 0;
+}
